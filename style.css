@@ -22,10 +22,14 @@ html{
   margin: 2rem auto;
 }
 .input-sec{
+  display:flex;
+  flex-direction:column;
+  justify-items:center;
+  align-items:flex-end;
+  width:62.5%;
   margin:3rem;
 }
-#textarea{
-  display:block;
+#textarea,.output{
   width:50%;
   height:20vh;
   padding:2rem 3rem;
@@ -43,4 +47,10 @@ html{
 button:hover{
   transform:scale(1.05);
   transition:0.3s;
+}
+.output{
+  margin-top:1rem;
+  height:20vh;
+  width:50%;
+  color:black;
 }

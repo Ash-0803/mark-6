@@ -1,9 +1,9 @@
 btn = document.querySelector('#btn-translate');
-text = document.querySelector('#textarea');
-
+input = document.querySelector('#textarea');
+output = document.querySelector('.output')
 btn.addEventListener('click', clickHandler);
 
 function clickHandler() {
   console.log("clicked");
-  console.log(text.value);
+  output.innerText = "lasjdfkljdsfl"+input.value;
 }
