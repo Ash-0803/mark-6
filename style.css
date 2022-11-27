@@ -14,6 +14,34 @@ html{
   margin:0;
   padding:0;
   box-sizing:border-box;
+  font-family:var(--font-prime);
+}
+
+/* main css */
+nav{
+  font-size:2rem;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  padding:0.7rem 4rem;
+  background-color: var(--primary-color);
+}
+nav img{
+  width:4rem;
+  height:4rem;
+  border-radius: 50%;
+}
+ul{
+  display:flex;
+  gap:3rem;
+  list-style: none;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+.active{
+ color:red;
 }
 .main-head{
   font-family:var(--font-sec);
@@ -31,7 +59,7 @@ html{
 }
 #textarea,.output{
   width:50%;
-  height:20vh;
+  height:30vh;
   padding:2rem 3rem;
   border-style:none;
   font-size:1.7rem;
@@ -48,9 +76,14 @@ button:hover{
   transform:scale(1.05);
   transition:0.3s;
 }
-.output{
-  margin-top:1rem;
-  height:20vh;
-  width:50%;
-  color:black;
+.output span{
+  opacity:0.6;
 }
+
+/* prime page css */
+h3{
+  text-align:center;
+  font-size:2em;
+}
+
+/* Leap page css */
