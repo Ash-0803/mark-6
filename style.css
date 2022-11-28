@@ -65,7 +65,7 @@ a{
   font-size:1.7rem;
   background-color: var(--primary-color);
 }
-#btn-translate{
+#btn-translate , #check{
   background-color:var(--primary-color);
   font-size:1.7rem;
   border-style: none;
@@ -84,6 +84,24 @@ button:hover{
 h3{
   text-align:center;
   font-size:2em;
+  margin-top: 4rem;
 }
-
+.inpt{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  gap:2rem;
+  margin:5rem auto;
+}
+.output-prime{
+  background-color:var(--primary-color);
+  padding:3rem 5rem;
+  visibility: hidden;
+}
+.big{
+  font-family:var(--font-sec);
+  font-size:4rem;
+  margin-top:2rem;
+}
 /* Leap page css */
