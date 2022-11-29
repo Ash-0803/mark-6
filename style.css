@@ -70,6 +70,7 @@ a{
   width:50%;
   height:30vh;
   padding:2rem 3rem;
+  text-align: center;
   border-style:none;
   font-size:1.7rem;
   background-color: var(--primary-color);
