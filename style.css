@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,400;0,700;1,400&family=Poiret+One&display=swap');
 
 :root{
-  --primary-color: aquamarine;
+  --primary-color: #80d5ff;
+  --bg-color:#000919;
   --font-prime: 'Nunito Sans', sans-serif;
   --font-sec: 'Poiret One', cursive
 }
@@ -15,6 +16,10 @@ html{
   padding:0;
   box-sizing:border-box;
   font-family:var(--font-prime);
+  color:var(--primary-color)
+}
+body{
+  background-color:var(--bg-color);
 }
 
 /* main css */
@@ -71,14 +76,22 @@ a{
   height:30vh;
   padding:2rem 3rem;
   text-align: center;
-  border-style:none;
   font-size:1.7rem;
-  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  background-color: var(--bg-color);
+  border-radius:2px;
+}
+#textarea::placeholder{
+  color:var(--primary-color);
+  opacity:0.6;
+}
+#textarea:focus{
+  outline:none;
 }
 #btn-translate , #check{
-  background-color:var(--primary-color);
+  background-color:var(--bg-color);
   font-size:1.7rem;
-  border-style: none;
+  border: 1px solid var(--primary-color);
   margin: 1rem 0;
   padding:1rem 2rem;
 }
@@ -106,8 +119,12 @@ h3{
 }
 .inpt input{
   border:2px solid var(--primary-color);
+  background-color: var(--bg-color);
   padding:1rem;
   text-align:center;
+}
+input{
+  outline:none;
 }
 .output-prime{
   background-color:var(--primary-color);
