@@ -1,4 +1,4 @@
-## PRIME BIRTHDAY
+## BANANA LINGUAL, PRIME BIRTHDAY, LEAP YEAR
 - This is a basic and fun translation app that translates what you write in the minion language.
 - A translation api is used in this application.
 - A user enters a paragraph which is then translated using the API and returned in the output box.
